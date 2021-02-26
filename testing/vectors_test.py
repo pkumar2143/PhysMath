@@ -17,4 +17,7 @@ f = a + b - d
 print(a.get_vec(), '+', b.get_vec(), '=', c.get_vec())
 print(a.get_vec(), '+', b.get_vec(), '-', d.get_vec(), '=', f.get_vec())
 
+g = 2*a
+print('2*a =',g.get_vec())
+
 

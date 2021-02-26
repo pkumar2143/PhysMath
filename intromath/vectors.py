@@ -34,3 +34,8 @@ class vec2d:
         new_x = self.x - b.x
         new_y = self.y - b.y
         return vec2d(new_x, new_y)
+
+    def __rmul__(self, b):
+        new_x = b*self.x
+        new_y = b*self.y
+        return vec2d(new_x, new_y)
